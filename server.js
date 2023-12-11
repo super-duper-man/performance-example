@@ -16,7 +16,7 @@ app.get("/", (req, res) => {
 });
 
 app.get("/timer", (req, res) => {
-  delay(9000);
+  delay(5000);
   res.send(
     `event loop was block for 9 seconds and now process id is: ${process.pid}`
   );
